@@ -1,0 +1,24 @@
+@media only screen and (min-width:450px){
+    .navbar{
+        width: 100%;
+        background-size: 100%;
+        background-color: rgb(192, 91, 192);
+        border-radius: 30px;
+    }
+}
+@media only screen and (max-width:450px){
+    .navbar{
+        background-color: darkmagenta;
+        border-radius: 30px;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .navbar-brand{  
+        top: 1%;
+        width: 30%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(../Assets/Images/logo.png);
+    }
+}

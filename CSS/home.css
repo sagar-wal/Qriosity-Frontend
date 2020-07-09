@@ -1,0 +1,171 @@
+@media only screen and (min-width:450px){
+    .bg{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        background-image: url('../Assets/Images/home-bg-dsk.png');
+        background-size: 100%;
+        background-position: center;
+        
+    }
+
+    .navbar{
+    
+        background: rgba(77, 55, 68, 0.705);
+        border-radius: 30px;
+    }
+
+    .navbar-brand{
+        width: 15%;
+        padding: 1%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(../Assets/Images/logo.png);
+    }
+    footer {
+        height: 5vh;
+        width: 100vw;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .ieee {
+        display: flex;
+        height: 5vh;
+    }
+    .SB{
+        color: aliceblue;
+    }
+    .bg-box{
+        position: absolute;
+        height:40%;
+        width: 50%;
+        top:30%;
+        left:25%;
+         
+        background-color: rgba(77, 55, 68, 0.705);
+        border-radius: 30px;
+    }
+    .text{
+        position: absolute;
+        top:5%;
+        left:2%;
+        color: cornsilk;
+        text-align: center;
+    }
+    .start{
+        position: absolute;
+        bottom:10%;
+        height:15;
+        width:20%;
+        left:40%;
+        border-radius: 30px;
+        background-color: rgba(221, 163, 38, 0.753);
+        text-align: center;
+    }
+    .start:hover{
+        position: absolute;
+        bottom:10%;
+        height:15;
+        width:20%;
+        left:40%;
+        border-radius: 30px;
+        background-color: rgba(165, 119, 20, 0.753);
+        text-align: center;
+    }
+}
+@media only screen and (max-width:450px){
+    .bg{
+        position: absolute;
+        left: -5%;
+        right: 0%;
+        top: -15%;
+        bottom: 0%;
+    
+        background-image: url('../Assets/Images/home-bg.png');
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    footer {
+        height: 5vh;
+        width: 100vw;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .ieee {
+        display: flex;
+        height: 5vh;
+    }
+    .navbar{
+        margin-top: 2%;
+        padding: 2%;
+        height: 10%;
+        background: rgba(77, 55, 68, 0.705);
+        border-radius: 30px;
+    }
+    
+    .navbar-brand{
+        padding: 20%;
+        width: 10%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(../Assets/Images/logo.png);
+    }
+    
+    .SB{
+        color: aliceblue;
+    }
+    .bg-box{
+        position: absolute;
+        height:40%;
+        width: 50%;
+        top:30%;
+        left:25%;
+         
+        background-color: rgba(77, 55, 68, 0.705);
+        border-radius: 30px;
+    }
+    .text{
+        position: absolute;
+        top:5%;
+        left:2%;
+        color: cornsilk;
+        text-align: center;
+    }
+    .start{
+        position: absolute;
+        bottom:10%;
+        height:15;
+        width:20%;
+        left:40%;
+        border-radius: 30px;
+        background-color: rgba(221, 163, 38, 0.753);
+        text-align: center;
+    }
+    .start:hover{
+        position: absolute;
+        bottom:10%;
+        height:15;
+        width:20%;
+        left:40%;
+        border-radius: 30px;
+        background-color: rgba(165, 119, 20, 0.753);
+        text-align: center;
+    }
+
+}
