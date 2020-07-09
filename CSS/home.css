@@ -1,8 +1,5 @@
 @media only screen and (min-width:450px){
-    .navbar-nav{
-        right:5%;
-        position: absolute;
-    }
+
     .bg{
         position: absolute;
         left: 0%;
@@ -17,22 +14,12 @@
     }
 
     .navbar{
-        position: absolute;
-        top:2%;
-        left:0;
-        right:0;
-        height:8%;
+
     
         background: rgba(77, 55, 68, 0.705);
         border-radius: 30px;
     }
 
-    .navbar-brand{
-    position:absolute;
-        top:20%;
-        left:2%;
-        height:100%;
-        width: 15%;
 
         background-size: 100%;
         background-repeat: no-repeat;
@@ -125,36 +112,9 @@
         height: 5vh;
     }
     .navbar{
-        position: absolute;
-        top:2%;
-        left:0;
-        right:0;
-        height:8%;
-        width: 100%;
-    
-        background: rgba(77, 55, 68, 0.705);
-        border-radius: 30px;
-    }
-    .navbar-toggler{
-        position: absolute;
-        right:3%;
 
     }
-    .collapse{
-        background: rgba(77, 55, 68, 0.705);
-    }
-    
-    .navbar-brand{
-    position:absolute;
-        top:30%;
-        left:5%;
-        height:100%;
-        width: 35%;
 
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-image: url(../Assets/Images/logo.png);
-    }
     .SB{
         color: aliceblue;
     }

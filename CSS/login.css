@@ -1,0 +1,188 @@
+@media only screen and (min-width:450px){
+    .bg{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        background-image: url('../Assets/Images/login-dsk.jpeg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+   
+    .google{
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        top: 30%;
+        left: 40%;
+        text-align: center;
+        background-color: rgba(40, 64, 197, 0.719);
+        background-size: 20%;
+        border-radius: 30px;
+    }
+    .g-icon{
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        top: 7%;
+        left: 5%;
+        background-size: 50%;
+        background-image: url(../Assets/Images/google.png);
+        background-repeat: no-repeat;
+    }
+    .g-text{
+        position: absolute;
+        top:30%;
+        left: 30%;
+        color: rgb(250, 250, 250);
+    }
+    .fb{
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        top: 60%;
+        left: 40%;
+        text-align: center;
+        background-color: rgba(88, 15, 49, 0.719);
+        background-size: 20%;
+        border-radius: 30px;
+    }
+    .f-icon{
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        top: 10%;
+        left: 10%;
+        background-size: 50%;
+        background-image: url(../Assets/Images/facebook.svg);
+        background-repeat: no-repeat;
+    }
+    .fb-text{
+        position: absolute;
+        top:30%;
+        left: 30%;
+        color: rgb(250, 250, 250);
+    }
+    footer {
+        height: 5vh;
+        width: 100vw;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .ieee {
+        display: flex;
+        height: 5vh;
+    }
+    .contact{
+        color: rgb(252, 252, 252);
+    }
+     
+    .SB{
+        color: aliceblue;
+    }
+    
+}
+@media only screen and (max-width:450px){
+    .bg{
+        position: absolute;
+        left: 00%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    
+        background-image: url('../Assets/Images/login-bg.jpeg');
+        background-size: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .google{
+        position: absolute;
+        width: 60%;
+        height: 10%;
+        top: 30%;
+        left: 20%;
+        text-align: center;
+        background-color: rgba(40, 64, 197, 0.719);
+        background-size: 20%;
+        border-radius: 30px;
+    }
+    .g-icon{
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        top: 7%;
+        left: 5%;
+        background-size: 60%;
+        background-image: url(../Assets/Images/google.png);
+        background-repeat: no-repeat;
+    }
+    .g-text{
+        position: absolute;
+        top:30%;
+        left: 30%;
+        color: rgb(250, 250, 250);
+    }
+    .fb{
+        position: absolute;
+        width: 60%;
+        height: 10%;
+        top: 56%;
+        left: 20%;
+        text-align: center;
+        background-color: rgba(192, 177, 184, 0.719);
+        background-size: 20%;
+        border-radius: 30px;
+    }
+    .f-icon{
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        top: 10%;
+        left: 10%;
+        background-size: 50%;
+        background-image: url(../Assets/Images/facebook.svg);
+        background-repeat: no-repeat;
+    }
+    .fb-text{
+        position: absolute;
+        top:30%;
+        left: 30%;
+        color: rgb(250, 250, 250);
+    }
+    footer {
+        height: 5vh;
+        width: 100vw;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .ieee {
+        display: flex;
+        height: 5vh;
+    }
+   .contact{
+       color: rgb(252, 252, 252);
+   }
+    
+    .SB{
+        color: aliceblue;
+    }
+   
+
+}
