@@ -1,4 +1,5 @@
 @media only screen and (min-width:450px){
+
     .bg{
         position: absolute;
         left: 0%;
@@ -13,14 +14,13 @@
     }
 
     .navbar{
+
     
         background: rgba(77, 55, 68, 0.705);
         border-radius: 30px;
     }
 
-    .navbar-brand{
-        width: 15%;
-        padding: 1%;
+
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: url(../Assets/Images/logo.png);
@@ -112,21 +112,9 @@
         height: 5vh;
     }
     .navbar{
-        margin-top: 2%;
-        padding: 2%;
-        height: 10%;
-        background: rgba(77, 55, 68, 0.705);
-        border-radius: 30px;
+
     }
-    
-    .navbar-brand{
-        padding: 20%;
-        width: 10%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-image: url(../Assets/Images/logo.png);
-    }
-    
+
     .SB{
         color: aliceblue;
     }
